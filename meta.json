@@ -4,23 +4,38 @@
 {
     //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "projectIdOrKey",
+            "title":"Project ID or Key"
         }
-        */
     ],
     //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "id",
+            "title":"ID"
+        },
+        {
+            "id": "self",
+            "title":"URL"
+        },
+        {
+            "id": "name",
+            "title":"Name"
+        },
+        {
+            "id": "statusesId",
+            "title":"Status ID"
+        },
+        {
+            "id": "statusesName",
+            "title":"Status"
+        },
+        {
+            "id": "statusesDesc",
+            "title":"Description"
         }
-      */
     ],
+    "icon": "dex-jira",
     "title": "Jira Get Issue Statuses" /* Required.A display name for the module */
 }
